@@ -1,6 +1,6 @@
-const px2viewport = require('postcss-px-to-viewport');
+import px2viewport from 'postcss-px-to-viewport';
 
-module.exports = () => {
+export default () => {
   return {
     plugins: [
       px2viewport({
